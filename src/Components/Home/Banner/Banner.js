@@ -4,7 +4,7 @@ import icon from '../../../images/Icons/video-icons-1.png';
 const Banner = () => {
     return (
         <div className='mx-auto py-1'>
-            <div className="row mx-auto">
+            <div className="row mx-auto text-center">
                 <div className='grid sm:grid-cols-1 md:grid-cols-2'>
                     <div className='pt-16 mb-16'>
                         <h1 className='text-4xl font-bold pl-5 py-4'>Easy To Find Your Next</h1>

@@ -4,7 +4,6 @@ import { NavLink, Link } from 'react-router-dom';
 const AboutUs = () => {
     return (
         <div className='mx-auto py-7'>
-
             <div className='grid md:grid-cols-2 sm:grid-cols-1'>
                 <div className=' relative'>
                     <img src='https://images.freeimages.com/images/small-previews/0c1/house-on-a-farm-1221758.jpg' className="w-5/6 pl-10 rounded-r-lg" alt='' />

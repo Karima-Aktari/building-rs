@@ -9,7 +9,7 @@ import Home from './Components/Home/Home/Home';
 
 function App() {
   return (
-    <div className="text-center">
+    <div className="">
       <Navigation />
       {/* <h1 className="bg-red-500 text-blue-500">Header</h1> */}
       <BrowserRouter>

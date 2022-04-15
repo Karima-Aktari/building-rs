@@ -3,7 +3,7 @@ import React from 'react';
 const Navigation = () => {
 
     return (
-        <div className='row mx-auto'>
+        <div className='row mx-auto text-center'>
             <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4 bg-blue-300 bg-opacity-40 py-2 md:relative">
                 <div className='text-blue-500 font-bold'>
                     <p>Building.RS</p>
