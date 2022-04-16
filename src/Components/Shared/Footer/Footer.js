@@ -68,8 +68,9 @@ const Footer = () => {
                 </div>
             </div>
             <div className='bg-blue-600 text-center text-slate-50 py-2 flex justify-center'>
-                <img src={copyright} className='w-5 h-5 my-1' alt='' />
+                <img src={copyright} className='w-5 h-5 my-1 ' alt='' />
                 <p>Copy right</p>
+                <img src={copyright} className='w-5 h-5 my-1 ' alt='' />
             </div>
         </div>
     );
