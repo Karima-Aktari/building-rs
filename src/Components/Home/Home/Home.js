@@ -1,8 +1,10 @@
 import React from 'react';
+import Footer from '../../Shared/Footer/Footer';
 import AboutUs from '../AboutUs/AboutUs';
 import Banner from '../Banner/Banner';
 import Brands from '../Brands/Brands';
 import RecentProperties from '../RecentProperties/RecentProperties';
+import Reviews from '../Reviews/Reviews';
 import TradingProperties from '../TradingProperties/TradingProperties';
 
 const Home = () => {
@@ -12,7 +14,11 @@ const Home = () => {
             <Brands />
             <AboutUs />
             <TradingProperties />
+
             <RecentProperties />
+            <Reviews />
+
+            <Footer />
         </div>
     );
 };

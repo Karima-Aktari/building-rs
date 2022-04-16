@@ -4,6 +4,7 @@ import share from '../../../images/Icons/share-icon.png';
 import bed from '../../../images/Icons/bed.png';
 import bath from '../../../images/Icons/bath.png';
 import square from '../../../images/Icons/square.png';
+import { Link, NavLink } from 'react-router-dom';
 
 const RecentProperties = () => {
     const properties = [
@@ -110,7 +111,9 @@ const RecentProperties = () => {
                         ))}
                 </div>
                 <div className='text-center py-3'>
-                    <button className='bg-blue-600 px-5 py-1 text-lg text-slate-200'>Learn More</button>
+                    <NavLink as={Link} to="/home">
+                        <button className='bg-blue-600 px-5 py-1 text-lg text-slate-200 font-medium border-2 border-blue-600'>Learn More</button>
+                    </NavLink>
                 </div>
             </div>
         </div>

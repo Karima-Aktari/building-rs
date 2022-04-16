@@ -1,31 +1,48 @@
 import React from 'react';
 
-const Reviews = () => {
-    return (
-        <div>
-            <div>
 
-            </div>
-            <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-                <img className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/sarah-dayan.jpg" alt="" width="384" height="512" />
-                <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
-                    <blockquote>
-                        <p className="text-lg font-medium">
-                            “Tailwind CSS is the only framework that I've seen scale
-                            on large teams. It’s easy to customize, adapts to any design,
-                            and the build size is tiny.”
-                        </p>
-                    </blockquote>
-                    <figcaption className="font-medium">
-                        <div className="text-sky-500 dark:text-sky-400">
-                            Sarah Dayan
-                        </div>
-                        <div className="text-slate-700 dark:text-slate-500">
-                            Staff Engineer, Algolia
-                        </div>
-                    </figcaption>
+const Reviews = () => {
+    const reviews = [
+        {
+            img: "https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2021/01/home10_img5.jpg?fbclid=IwAR3ETDCxJiwVIyBvqGHl7GimdZF-58izRFKySWDNRzlDuA6rcJvugSvRqhI",
+            text: " Find Digital Agencies In Usa! Always Facts. Results & Answers. Privacy Friendly. Unlimited Access. The Best Resources. Types: Best Results, Explore Now, New Sources.",
+            name: "Jesika",
+            title: "Web Developer"
+        },
+        {
+            img: "https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2021/01/home10_img5.jpg?fbclid=IwAR3ETDCxJiwVIyBvqGHl7GimdZF-58izRFKySWDNRzlDuA6rcJvugSvRqhI",
+            text: " Find Digital Agencies In Usa! Always Facts. Results & Answers. Privacy Friendly. Unlimited Access. The Best Resources. Types: Best Results, Explore Now, New Sources.",
+            name: "Maiden",
+            title: "Engineere"
+        },
+    ]
+
+    return (
+        <div className='mx-auto bg-cyan-100'>
+            <div className='container py-4'>
+                <div className='text-center mx-auto pt-2 px-7'>
+                    <h1 className='text-3xl font-bold'>What are <span className='text-blue-500'>Saying</span>Our Client</h1>
+                    <p className='text-md text-gray-500 py-5 w-96 text-center mx-auto font-medium'>
+                        The better impression it would make. An Agency,The better impression it would make. An Agency.
+                    </p>
                 </div>
-            </figure>
+                <div className='mx-auto'>
+                    <div className='grid md:grid-cols-2 sm:grid-cols-1 gap-5 p-2 mx-auto ml-7 mr-0'>
+                        {
+                            reviews.map(review => (
+                                <div className='grid md:grid-cols-2 sm:grid-cols-1 gap-2 p-7 bg-slate-50 mx-auto rounded'>
+                                    <img src={review.img} className="rounded-xl" alt='' />
+                                    <div className='p-4'>
+                                        <p>{review.text}</p>
+                                        <h2 className='pt-4 text-xl font-bold'>{review.name}</h2>
+                                        <h4>{review.title}</h4>
+                                    </div>
+                                </div>
+                            ))
+                        }
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
