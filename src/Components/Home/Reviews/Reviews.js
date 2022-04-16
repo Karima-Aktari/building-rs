@@ -21,7 +21,7 @@ const Reviews = () => {
         <div className='mx-auto bg-cyan-100'>
             <div className='container py-4'>
                 <div className='text-center mx-auto pt-2 px-7'>
-                    <h1 className='text-3xl font-bold'>What are <span className='text-blue-500'>Saying</span>Our Client</h1>
+                    <h1 className='text-3xl font-bold'>What are <span className='text-blue-500'>Saying </span>Our Client</h1>
                     <p className='text-md text-gray-500 py-5 w-96 text-center mx-auto font-medium'>
                         The better impression it would make. An Agency,The better impression it would make. An Agency.
                     </p>

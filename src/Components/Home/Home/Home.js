@@ -3,6 +3,7 @@ import Footer from '../../Shared/Footer/Footer';
 import AboutUs from '../AboutUs/AboutUs';
 import Banner from '../Banner/Banner';
 import Brands from '../Brands/Brands';
+import Question from '../Question/Question';
 import RecentProperties from '../RecentProperties/RecentProperties';
 import Reviews from '../Reviews/Reviews';
 import Services from '../Services/Services';
@@ -18,7 +19,7 @@ const Home = () => {
             <Services />
             <RecentProperties />
             <Reviews />
-
+            <Question />
             <Footer />
         </div>
     );
