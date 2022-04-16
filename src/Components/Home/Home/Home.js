@@ -2,6 +2,7 @@ import React from 'react';
 import AboutUs from '../AboutUs/AboutUs';
 import Banner from '../Banner/Banner';
 import Brands from '../Brands/Brands';
+import RecentProperties from '../RecentProperties/RecentProperties';
 import TradingProperties from '../TradingProperties/TradingProperties';
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <Brands />
             <AboutUs />
             <TradingProperties />
+            <RecentProperties />
         </div>
     );
 };

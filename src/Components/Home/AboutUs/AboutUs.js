@@ -10,7 +10,7 @@ const AboutUs = () => {
                     <div className='absolute bg-blue-100 bg-opacity-40 absolute h-full w-5/6 -left-7 -top-7 rounded-r-lg'>
                     </div>
                 </div>
-                <div className='w-full text-left'>
+                <div className='w-full text-left px-2'>
                     <h3 className='text-blue-500 font-medium'>About Us</h3>
                     <h1 className='text-3xl font-bold'>We Are Providing The Top</h1>
                     <h1 className='text-3xl font-bold'><span className='text-blue-500'>Real State </span>Property</h1>
